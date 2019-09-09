@@ -1,0 +1,29 @@
+﻿<Window x:Class="Vlaggen_van_de_wereld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vlaggen_van_de_wereld"
+        mc:Ignorable="d"
+        Title="Quiz" Height="450" Width="800">
+    <Grid x:Name="Container" Background="LightSalmon">
+        <Image x:Name="Image" HorizontalAlignment="Left" Height="310" VerticalAlignment="Top" Width="420" Margin="33,71,0,0" />
+
+        <Label Name="Goed" Content="Goed:" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="17.688,3.832"          Margin="518,300,0,0" Width="55"/>
+        <Label Name="Label1" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="17.688,3.832"             Margin="580,300,0,0" Width="55"/>
+        <Label Name="Te_gaan" Content="Te Gaan:" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="17.688,3.832"    Margin="518,330,0,0" Width="55"/>
+        <Label Name="Label2" Content="196" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="17.688,3.832"             Margin="580,330,0,0" Width="55"/>
+
+
+        <Button x:Name="ButtonStart" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="314,31,0,0" Click="ButtonStart_Click"/>
+        <Button x:Name="Button0" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="245" Margin="518,105,0,0" Height="25" Click="Button0_Click"/>
+        <Button x:Name="Button1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="245" Margin="518,145,0,0" Height="25" Click="Button1_Click"/>
+        <Button x:Name="Button2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="245" Margin="518,185,0,0" Height="25" Click="Button2_Click"/>
+        <Button x:Name="Button3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="245" Margin="518,225,0,0" Height="25" Click="Button3_Click"/>
+        <Button x:Name="Overview" Content="Overview" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="613,31,0,0" Click="Overview_Click"/>
+
+
+
+
+    </Grid>
+</Window>
